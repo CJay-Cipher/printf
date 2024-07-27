@@ -89,18 +89,18 @@ R: Print the string encoded in ROT13
 - Creation of README.md file
 - Creation of header file (main.h)
 - Creation of .c files
--- _printf.c
--- flags.c
--- get_width.c
+-- _printf.c/n
+-- flags.c/n
+-- get_width.c/n
 -- handle_print.c
--- handlers.c
--- precision.c
--- print_functions.c
--- print_functions1.c
--- print_functions2.c
--- size.c
--- utils.c
--- main.c (extracted from project dashboard)
+-- handlers.c/n
+-- precision.c/n
+-- print_functions.c/n
+-- print_functions1.c/n
+-- print_functions2.c/n
+-- size.c/n
+-- utils.c/n
+-- main.c (extracted from project dashboard)/n
 - Compile .c files with gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
 - Push to github
 - Team review and edit of project files on github
