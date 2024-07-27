@@ -5,7 +5,9 @@ This project aims to demonstrate our team work on the _printf function which wri
 
 ## TASKS
 
+
 - Basic Conversion Specifiers
+
 Task 0: Handle the following conversion specifiers:
 c: Character
 s: String
@@ -28,7 +30,9 @@ u: Unsigned decimal integer
 o: Unsigned octal integer
 x: Unsigned hexadecimal integer (lowercase)
 X: Unsigned hexadecimal integer (uppercase)
-Buffer Usage
+
+
+- Buffer Usage
 
 Task 4: Use a local buffer of 1024 characters to minimize calls to write.
 String Formatting with Non-printable Characters
