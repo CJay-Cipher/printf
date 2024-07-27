@@ -100,7 +100,7 @@ R: Print the string encoded in ROT13
   - print_functions2.c
   - size.c
   - utils.c
-  - main.c (extracted from project dashboard)/n
+  - main.c (extracted from project dashboard)
 - Compile .c files with gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
 - Push to github
 - Team review and edit of project files on github
