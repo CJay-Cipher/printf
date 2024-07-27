@@ -1,7 +1,7 @@
 # 0x11. C - printf TEAM PROJECT
 
 ## Description
-This project aims to demonstrate our team work on the _printf function which writes formatted output to the standard output stream (stdout). It supports several conversion specifiers and flags, implemented incrementally through various tasks. Each task adds new features to the function.
+This project aims to demonstrate our teamwork on the _printf function which writes formatted output to the standard output stream (stdout). It supports several conversion specifiers and flags, implemented incrementally through various tasks. Each task adds new features to the function.
 
 ## TASKS
 
@@ -84,8 +84,8 @@ R: Print the string encoded in ROT13
 ## Collaborators - Cjay-Cipher & sirnicson
 
 ## Process
-- Creation of repository
-- Clonening of repo on local machine
+- Creation of printf repository
+- Cloning of repo on local machine
 - Creation of README.md file
 - Creation of header file (main.h)
 - Creation of .c files
@@ -94,7 +94,7 @@ R: Print the string encoded in ROT13
 -- get_width.c
 -- handle_print.c
 -- handlers.c
--- presicion.c
+-- precision.c
 -- print_functions.c
 -- print_functions1.c
 -- print_functions2.c
