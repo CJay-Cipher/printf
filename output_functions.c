@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** PRINT CHARACTER **/
+/** PRINT CHAR **/
 
 /**
  * print_char - Prints a char

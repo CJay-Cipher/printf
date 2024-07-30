@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * precision_manager - Calculate the precision for print
+ * get_precision - Calculates the precision for printing
  * @format: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
  * @list: list of arguments.
  *
  * Return: Precision.
  */
-int precision_manager(const char *format, int *i, va_list list)
+int get_precision(const char *format, int *i, va_list list)
 {
 	int curr_i = *i + 1;
 	int precision = -1;

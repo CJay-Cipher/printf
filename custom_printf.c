@@ -5,7 +5,7 @@ void print_buffer(char buffer[], int *buff_ind);
 /**
  * _printf - Printf function
  * @format: format.
- * Return: Printed characters.
+ * Return: Printed chars.
  */
 int _printf(const char *format, ...)
 {
@@ -32,12 +32,12 @@ int _printf(const char *format, ...)
 		else
 		{
 			print_buffer(buffer, &buff_ind);
-			flags = flags_handler(format, &i);
-			width = width_parser(format, &i, list);
-			precision = precision_manager(format, &i, list);
-			size = size_handler(format, &i);
+			flags = get_flags(format, &i);
+			width = get_width(format, &i, list);
+			precision = get_precision(format, &i, list);
+			size = get_size(format, &i);
 			++i;
-			printed = print_handler(format, &i, list, buffer,
+			printed = handle_print(format, &i, list, buffer,
 				flags, width, precision, size);
 			if (printed == -1)
 				return (-1);
