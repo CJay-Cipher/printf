@@ -1,6 +1,6 @@
 #include "main.h"
 
-/************************* WRITE HANDLE *************************/
+/************************* WRITE HANDLERS *************************/
 /**
  * handle_write_char - Prints a string
  * @c: char types.
@@ -138,7 +138,7 @@ int write_num(int ind, char buffer[],
 }
 
 /**
- * write_unsgnd - Writes an unsigned number
+ * write_unsgnd - Write an unsigned number
  * @is_negative: Number indicating if the num is negative
  * @ind: Index at which the number starts in the buffer
  * @buffer: Array of chars
