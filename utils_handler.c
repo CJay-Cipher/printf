@@ -2,6 +2,7 @@
 
 /**
  * is_printable - Evaluates if a char is printable
+ * by CJay & sirnicson
  * @c: Char to be evaluated.
  *
  * Return: 1 if c is printable, 0 otherwise
@@ -16,6 +17,7 @@ int is_printable(char c)
 
 /**
  * append_hexa_code - Append ascci in hexadecimal code to buffer
+ * by CJay & sirnicson
  * @buffer: Array of chars.
  * @i: Index at which to start appending.
  * @ascii_code: ASSCI CODE.
@@ -39,6 +41,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 
 /**
  * is_digit - Verifies if a char is a digit
+ * by CJay & sirnicson
  * @c: Char to be evaluated
  *
  * Return: 1 if c is a digit, 0 otherwise
@@ -53,6 +56,7 @@ int is_digit(char c)
 
 /**
  * convert_size_number - Casts a number to the specified size
+ * by CJay & sirnicson
  * @num: Number to be casted.
  * @size: Number indicating the type to be casted.
  *
@@ -70,6 +74,7 @@ long int convert_size_number(long int num, int size)
 
 /**
  * convert_size_unsgnd - Casts a number to the specified size
+ * by CJay & sirnicson
  * @num: Number to be casted
  * @size: Number indicating the type to be casted
  *
